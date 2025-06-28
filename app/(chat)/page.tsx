@@ -6,6 +6,7 @@ import { generateUUID } from '@/lib/utils';
 import { DataStreamHandler } from '@/components/data-stream-handler';
 import { auth } from '../(auth)/auth';
 import { redirect } from 'next/navigation';
+import { createCVMessage } from '@/lib/cv-message';
 
 export default async function Page() {
   const session = await auth();
@@ -18,6 +19,9 @@ export default async function Page() {
 
   const cookieStore = await cookies();
   const modelIdFromCookie = cookieStore.get('chat-model');
+
+  // Create the initial CV message for new chats
+  //const cvMessage = createCVMessage();
 
   if (!modelIdFromCookie) {
     return (
