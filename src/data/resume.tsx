@@ -2,16 +2,16 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Sebastian Rojas",
-  initials: "DV",
+  name: "Sebastián Rojas",
+  initials: "SR",
   url: "https://dillion.io",
   location: "Asunción, PY",
   locationLink: "https://www.google.com/maps/place/asunci%C3%B3n,+paraguay/",
   description:
     "Computer Science Student with +2 years of experience. I love building things and helping people. Very active on Twitter.",
   summary:
-    "At the end of 2025, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I studied computer science at night and worked during the day ](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
-  avatarUrl: "/me.png",
+    "At the end of 2025, I quit my job as a software engineer to go fulltime into building and scaling my own Projects and Startup. In the past, [I studied computer science at night and worked during the day ](/#education), [worked at a local big tech company in Asunción](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+  avatarUrl: "/me.jpeg",
   skills: [
     "Typescript",
     "Node.js",
@@ -41,14 +41,13 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/sebastian-rojas-swe",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/basestian",
         icon: Icons.x,
 
         navbar: true,
