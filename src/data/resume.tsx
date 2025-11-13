@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Computer Science Student with +2 years of experience. I love building things and helping people. Very active on Twitter.",
   summary:
-    "At the end of 2025, I quit my job as a software engineer to go fulltime into building and scaling my own Projects and Startup. In the past, [I studied computer science at night and worked during the day ](/#education), [worked at a local big tech company in Asunción](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "At the end of 2025, I quit my job as a software engineer to go fulltime into building and scaling my own Projects and Startup. In the past, [I studied computer science at night and worked during the day ](/#education), [worked at a local big tech company in Asunción](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons).",
   avatarUrl: "/me.jpeg",
   skills: [
     "Typescript",
@@ -64,28 +64,28 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "SoftShop",
+      href: "https://softshop.com.py",
       badges: [],
-      location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      location: "Asunción, Paraguay",
+      title: "Software Engineer",
+      logoUrl: "/softshop.svg",
+      start: "Aug 2024",
+      end: "Dec 2025",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Implemented a system for X-Ray medical image analysis using GCP Vertex AI, BigQuery, Firestore, and Cloud Functions, resulting in a 15% reduction and 80% precision in diagnostic time for radiologists. Developed a custom chatbot for internal usage of the company with Gemini helping keep track of hardware equipment. Mantained and improved MLOps pipelines using Linux, Docker, Kubeflow, CUDAs, and TPUs for tree-counting ML models in production for project Terraview. Helped the commercial team accompanying them as technical pre-sales engineer for GCP and Software related projects.",
     },
     {
-      company: "Shopify",
+      company: "Softshop",
       badges: [],
-      href: "https://shopify.com",
-      location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
+      href: "https://softshop.com.py",
+      location: "Asunción, Paraguay",
+      title: "IT Technician",
+      logoUrl: "/softshop.svg",
+      start: "Dec 2023",
+      end: "May 2024",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Started my internship as IT technician, managing and maintaining servers, workstations, and databases using RHEL, Windows Server, DB2, and MySQL. Automated various IT monitoring and maintenance tasks using Datadog, Python and Instana, reducing manual workload by 30%.",
     },
     {
       company: "Nvidia",
@@ -138,20 +138,20 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
+      school: "Google Cloud Platform",
+      href: "https://www.credly.com/badges/481045c7-3588-4e12-906f-e24610f71981/public_url",
+      degree: "Professional Cloud Architect",
+      logoUrl: "/gcp.png",
       start: "2023",
-      end: "2024",
+      end: "2026",
     },
     {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
+      school: "Universidad Católica Nuestra Señora de la Asunción",
+      href: "https://universidadcatolica.edu.py",
+      degree: "Analisis de Sistemas Informáticos",
+      logoUrl: "/logo-UC-PNG.png",
+      start: "2023",
+      end: "2027",
     },
     {
       school: "Wilfrid Laurier University",
