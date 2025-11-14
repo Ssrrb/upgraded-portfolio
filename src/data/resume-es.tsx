@@ -21,30 +21,6 @@ export const DATA_ES = {
       description:
         "Comencé mi pasantía como técnico de IT, gestionando y manteniendo servidores, estaciones de trabajo y bases de datos usando RHEL, Windows Server, DB2 y MySQL. Automaticé varias tareas de monitoreo y mantenimiento de IT usando Datadog, Python e Instana, reduciendo la carga de trabajo manual en un 30%.",
     },
-    {
-      ...DATA.work[2],
-      title: "Ingeniero de Software",
-      description:
-        "Arquitecté y escribí todo el MVP del panel de administración interno y pruebas A/B de GeForce Now Cloud Gaming usando React, Redux, TypeScript y Python.",
-    },
-    {
-      ...DATA.work[3],
-      title: "Ingeniero de Software",
-      description:
-        "Co-desarrollé un prototipo de aplicación iOS con otro pasante en Swift para el nuevo producto de orquestación de seguridad Splunk Phantom (posteriormente demostrado públicamente y lanzado en la conferencia anual .conf en Las Vegas). Implementé un servicio en tiempo real para la aplicación iOS en Django (Python) y C++; datos serializados usando protobufs transmitidos sobre gRPC resultando en un aumento aproximado del 500% en el rendimiento de datos.",
-    },
-    {
-      ...DATA.work[4],
-      title: "Ingeniero de Software",
-      description:
-        "Propuse e implementé una API interna de ruby para enviar/recibir comandos a scooters sobre redes LTE. Desarrollé un sistema completamente automatizado de actualización de firmware de bicicletas para manejar actualizaciones de firmware asíncronas de más de 100,000+ scooters en todo el mundo, y proporcionar informes de progreso en tiempo real usando React, Ruby on Rails, PostgreSQL y AWS EC2 ahorrando cientos de horas de desarrollador.",
-    },
-    {
-      ...DATA.work[5],
-      title: "Ingeniero de Software",
-      description:
-        "Diseñé e implementé un sistema robusto de encriptación de contraseñas y almacenamiento de cookies del navegador en Ruby on Rails. Aproveché la API de finanzas de Yahoo para desarrollar el filtro de acciones de dividend.com",
-    },
   ],
   education: [
     {
@@ -61,7 +37,7 @@ export const DATA_ES = {
     },
     {
       ...DATA.education[3],
-      degree: "Diploma IB",
+      degree: "Bachiller Tecnico con Énfasis en Marketing",
     },
   ],
   projects: [
