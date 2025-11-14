@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "blog": "Blog"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "location": "Ubicado en"
+  },
+  "sections": {
+    "about": "Sobre mí",
+    "work": "Experiencia Laboral",
+    "education": "Educación",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "hackathons": "Hackathons"
+  },
+  "work": {
+    "present": "Actualidad",
+    "viewMore": "Ver más"
+  },
+  "projects": {
+    "active": "Activo",
+    "website": "Sitio Web",
+    "source": "Código",
+    "title": "Mis Proyectos",
+    "heading": "Echa un vistazo a mi último trabajo",
+    "description": "He trabajado en una variedad de proyectos, desde sitios web simples hasta aplicaciones web complejas. Aquí están algunos de mis favoritos."
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Mis pensamientos sobre desarrollo de software, vida y más.",
+    "readMore": "Leer más",
+    "publishedOn": "Publicado el",
+    "noPostsFound": "No se encontraron publicaciones.",
+    "backToBlog": "Volver al Blog"
+  },
+  "hackathons": {
+    "title": "Hackathons",
+    "heading": "Me gusta construir cosas",
+    "description": "Durante mi tiempo en la universidad, asistí a {count}+ hackathons. Personas de todo el país se reunían y construían cosas increíbles en 2-3 días. Fue revelador ver las infinitas posibilidades cobrar vida gracias a un grupo de personas motivadas y apasionadas."
+  },
+  "contact": {
+    "badge": "Contacto",
+    "title": "Ponte en Contacto",
+    "description": "¿Quieres charlar? Envíame un mensaje directo",
+    "withALink": "con una pregunta directa en twitter",
+    "andIgnore": "y responderé cuando pueda. Ignoraré toda solicitud comercial.",
+    "sendEmail": "Enviar Email",
+    "andIWillGetBackToYou": "y te responderé."
+  },
+  "footer": {
+    "madeWith": "Hecho con",
+    "and": "y",
+    "by": "por"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "toggleTheme": "Cambiar tema"
+  },
+  "language": {
+    "english": "Inglés",
+    "spanish": "Español",
+    "toggleLanguage": "Cambiar idioma"
+  }
+}

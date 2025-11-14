@@ -1,5 +1,8 @@
+"use client";
+
 import { Dock, DockIcon } from "@/components/magicui/dock";
 import { ModeToggle } from "@/components/mode-toggle";
+import { LanguageToggle } from "@/components/language-toggle";
 import { buttonVariants } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import {
@@ -10,8 +13,11 @@ import {
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import { useLocale, useTranslations } from "next-intl";
 
 export default function Navbar() {
+  const locale = useLocale();
+  const t = useTranslations();
   return (
     <div className="pointer-events-none fixed inset-x-0 bottom-0 z-30 mx-auto mb-4 flex origin-bottom h-full max-h-14">
       <div className="fixed bottom-0 inset-x-0 h-16 w-full bg-background to-transparent backdrop-blur-lg [-webkit-mask-image:linear-gradient(to_top,black,transparent)] dark:bg-background"></div>
@@ -21,7 +27,7 @@ export default function Navbar() {
             <Tooltip>
               <TooltipTrigger asChild>
                 <Link
-                  href={item.href}
+                  href={`/${locale}${item.href}`}
                   className={cn(
                     buttonVariants({ variant: "ghost", size: "icon" }),
                     "size-12"
@@ -31,7 +37,7 @@ export default function Navbar() {
                 </Link>
               </TooltipTrigger>
               <TooltipContent>
-                <p>{item.label}</p>
+                <p>{t(`nav.${item.label.toLowerCase()}`)}</p>
               </TooltipContent>
             </Tooltip>
           </DockIcon>
@@ -66,7 +72,17 @@ export default function Navbar() {
               <ModeToggle />
             </TooltipTrigger>
             <TooltipContent>
-              <p>Theme</p>
+              <p>{t("theme.toggleTheme")}</p>
+            </TooltipContent>
+          </Tooltip>
+        </DockIcon>
+        <DockIcon>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <LanguageToggle />
+            </TooltipTrigger>
+            <TooltipContent>
+              <p>{t("language.toggleLanguage")}</p>
             </TooltipContent>
           </Tooltip>
         </DockIcon>

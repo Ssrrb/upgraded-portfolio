@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "Home",
+    "blog": "Blog"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "location": "Based in"
+  },
+  "sections": {
+    "about": "About",
+    "work": "Work Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "projects": "Projects",
+    "hackathons": "Hackathons"
+  },
+  "work": {
+    "present": "Present",
+    "viewMore": "View More"
+  },
+  "projects": {
+    "active": "Active",
+    "website": "Website",
+    "source": "Source",
+    "title": "My Projects",
+    "heading": "Check out my latest work",
+    "description": "I've worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites."
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "My thoughts on software development, life, and more.",
+    "readMore": "Read more",
+    "publishedOn": "Published on",
+    "noPostsFound": "No posts found.",
+    "backToBlog": "Back to Blog"
+  },
+  "hackathons": {
+    "title": "Hackathons",
+    "heading": "I like building things",
+    "description": "During my time in university, I attended {count}+ hackathons. People from around the country would come together and build incredible things in 2-3 days. It was eye-opening to see the endless possibilities brought to life by a group of motivated and passionate individuals."
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Get in Touch",
+    "description": "Want to chat? Just shoot me a dm",
+    "withALink": "with a direct question on twitter",
+    "andIgnore": "and I'll respond whenever I can. I will ignore all soliciting.",
+    "sendEmail": "Send Email",
+    "andIWillGetBackToYou": "and I will get back to you."
+  },
+  "footer": {
+    "madeWith": "Made with",
+    "and": "and",
+    "by": "by"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "toggleTheme": "Toggle theme"
+  },
+  "language": {
+    "english": "English",
+    "spanish": "Spanish",
+    "toggleLanguage": "Toggle language"
+  }
+}
