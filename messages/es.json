@@ -13,7 +13,7 @@
     "education": "Educación",
     "skills": "Habilidades",
     "projects": "Proyectos",
-    "hackathons": "Hackathons"
+    "moreInProgress": "Más & En Progreso"
   },
   "work": {
     "present": "Actualidad",
@@ -35,10 +35,10 @@
     "noPostsFound": "No se encontraron publicaciones.",
     "backToBlog": "Volver al Blog"
   },
-  "hackathons": {
-    "title": "Hackathons",
-    "heading": "Me gusta construir cosas",
-    "description": "Durante mi tiempo en la universidad, asistí a {count}+ hackathons. Personas de todo el país se reunían y construían cosas increíbles en 2-3 días. Fue revelador ver las infinitas posibilidades cobrar vida gracias a un grupo de personas motivadas y apasionadas."
+  "moreInProgress": {
+    "title": "Más & En Progreso",
+    "heading": "Siempre Aprendiendo y Creciendo",
+    "description": "Más allá de mi trabajo profesional, me apasiona el aprendizaje continuo y la participación comunitaria. Aquí hay {count} actividades y proyectos adicionales que muestran mis diversos intereses y desarrollo continuo."
   },
   "contact": {
     "badge": "Contacto",
