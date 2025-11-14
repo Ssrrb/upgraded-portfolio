@@ -4,13 +4,13 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Sebastián Rojas",
   initials: "SR",
-  url: "https://dillion.io",
+  url: "https://sebastianrojas.lat",
   location: "Asunción, PY",
   locationLink: "https://www.google.com/maps/place/asunci%C3%B3n,+paraguay/",
   description:
     "Computer Science Student with +2 years of experience. I love building things and helping people. Very active on GitHub.",
   summary:
-    "At the end of 2025, I quit my job as a software engineer to go fulltime into building my own Projects and learning Data Science. In the past, [I started studying electronics engineering and switched to attend computer science classes at night and work during the day](/#education),[worked at an AI team in a top tech company in Asunción](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons).",
+    "At the end of 2025, I quit my job as a software engineer to go fulltime into building my own Projects and learning Data Science. In the past, [I started studying electronics engineering and switched to attend computer science classes at night and work during the day](/#education), worked at an AI team in a local top tech company",
   avatarUrl: "/me.jpeg",
   skills: [
     "Typescript",
@@ -91,14 +91,6 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Google Cloud Platform",
-      href: "https://www.credly.com/badges/481045c7-3588-4e12-906f-e24610f71981/public_url",
-      degree: "Professional Cloud Architect",
-      logoUrl: "/gcp.png",
-      start: "2024",
-      end: "2026",
-    },
-    {
       school: "Universidad Católica Nuestra Señora de la Asunción",
       href: "https://universidadcatolica.edu.py/producto/analisis-de-sistemas-asuncion/",
       degree: "Analisis de Sistemas Informáticos",
@@ -114,10 +106,18 @@ export const DATA = {
       start: "2011",
       end: "2022",
     },
+    {
+      school: "Google Cloud Platform",
+      href: "https://www.credly.com/badges/481045c7-3588-4e12-906f-e24610f71981/public_url",
+      degree: "Professional Cloud Architect",
+      logoUrl: "/gcp.png",
+      start: "2024",
+      end: "2026",
+    },
       {
       school: "Massachusetts Institute of Technology (MITx)",
       href: "https://idss.mit.edu/academics/micromasters-program-in-statistics-and-data-science-sds/",
-      degree: "Current Student - Data Science and Statistics",
+      degree: "Data Science and Statistics",
       logoUrl: "/mit.png",
       start: "2026",
       end: "2027",

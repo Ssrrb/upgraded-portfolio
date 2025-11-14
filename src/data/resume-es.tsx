@@ -7,7 +7,7 @@ export const DATA_ES = {
   description:
     "Estudiante de Ciencias de la Computación con más de 2 años de experiencia. Me encanta construir cosas y ayudar a las personas. Muy activo en Twitter.",
   summary:
-    "A finales de 2025, dejé mi trabajo como ingeniero de software para dedicarme a tiempo completo a construir y escalar mis propios Proyectos y Startups. En el pasado, [estudié ciencias de la computación por la noche y trabajé durante el día](/#education), [trabajé en una gran empresa tecnológica local en Asunción](https://www.youtube.com/watch?v=d-LJ2e5qKdE), y [competí en más de 21 hackathons por diversión](/#hackathons).",
+    "A finales de 2025, dejé mi trabajo como ingeniero de software para dedicarme a tiempo completo a construir y escalar mis propios Proyectos y Startups. En el pasado, [estudié ciencias de la computación por la noche y trabajé durante el día](/#education), trabajé en una gran empresa tecnológica local en Asunción",
   work: [
     {
       ...DATA.work[0],
@@ -24,20 +24,20 @@ export const DATA_ES = {
   ],
   education: [
     {
-      ...DATA.education[0],
-      degree: "Arquitecto Profesional en la Nube",
-    },
-    {
       ...DATA.education[1],
       degree: "Análisis de Sistemas Informáticos",
     },
     {
       ...DATA.education[2],
-      degree: "Licenciatura en Administración de Empresas (BBA)",
+      degree: "Bachiller Tecnico con Énfasis en Marketing",
+    },
+      {
+      ...DATA.education[0],
+      degree: "Arquitecto Profesional en la Nube",
     },
     {
       ...DATA.education[3],
-      degree: "Bachiller Tecnico con Énfasis en Marketing",
+      degree: "Ciencia de Datos y Estadística",
     },
   ],
   projects: [
