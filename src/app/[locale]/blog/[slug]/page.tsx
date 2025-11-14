@@ -7,7 +7,11 @@ import { Suspense } from "react";
 
 export async function generateStaticParams() {
   const posts = await getBlogPosts();
-  return posts.map((post) => ({ slug: post.slug }));
+  const locales = ["en", "es"];
+
+  return locales.flatMap((locale) =>
+    posts.map((post) => ({ locale, slug: post.slug }))
+  );
 }
 
 export async function generateMetadata({
