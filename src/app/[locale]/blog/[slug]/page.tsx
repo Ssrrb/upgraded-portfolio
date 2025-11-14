@@ -4,6 +4,7 @@ import { formatDate } from "@/lib/utils";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
+import { setRequestLocale } from "next-intl/server";
 
 export async function generateStaticParams() {
   const posts = await getBlogPosts();
@@ -17,11 +18,12 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }): Promise<Metadata | undefined> {
-  let post = await getPost(params.slug);
+  const { slug } = await params;
+  let post = await getPost(slug);
 
   let {
     title,
@@ -58,11 +60,17 @@ export async function generateMetadata({
 export default async function Blog({
   params,
 }: {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+    locale: string;
+  }>;
 }) {
-  let post = await getPost(params.slug);
+  const { slug, locale } = await params;
+
+  // Enable static rendering
+  setRequestLocale(locale);
+
+  let post = await getPost(slug);
 
   if (!post) {
     notFound();

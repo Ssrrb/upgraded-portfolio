@@ -8,11 +8,16 @@ import { Badge } from "@/components/ui/badge";
 import { getResumeData } from "@/data/get-resume-data";
 import Link from "next/link";
 import Markdown from "react-markdown";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
 const BLUR_FADE_DELAY = 0.04;
 
-export default async function Page({ params: { locale } }: { params: { locale: string } }) {
+export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+
+  // Enable static rendering
+  setRequestLocale(locale);
+
   const t = await getTranslations();
   const DATA = getResumeData(locale);
   return (
