@@ -62,114 +62,26 @@ export const DATA_ES = {
         "Desarrollé un Chatbot de Soporte al Cliente con IA que responde automáticamente a tickets de soporte al cliente utilizando los últimos modelos GPT.",
     },
   ],
-  hackathons: [
+  moreInProgress: [
     {
-      ...DATA.hackathons[0],
+      ...DATA.moreInProgress[0],
       description:
-        "Desarrollé una aplicación móvil que entregaba cuentos para dormir a niños usando realidad aumentada.",
+        "Educador Certificado de Google Nivel 1, demostrando competencia en la integración de herramientas de Google Workspace en entornos educativos y profesionales para mejorar la productividad y colaboración.",
     },
     {
-      ...DATA.hackathons[1],
+      ...DATA.moreInProgress[1],
       description:
-        "Desarrollé una aplicación móvil que entrega eventos de todo el campus universitario en tiempo real a todos los estudiantes.",
+        "Desarrollando un robot autónomo impulsado por Nvidia Jetson Nano para visión por computadora y detección de objetos en tiempo real. El proyecto se enfoca en implementar modelos de aprendizaje profundo para navegación y conciencia ambiental.",
     },
     {
-      ...DATA.hackathons[2],
+      ...DATA.moreInProgress[2],
       description:
-        "Desarrollé una aplicación móvil que comunica los datos médicos de una víctima desde el interior de una ambulancia a los médicos del hospital.",
+        "Asistí a la Conferencia IBM TechXchange 2024, un evento premier que reúne a líderes tecnológicos, desarrolladores e innovadores para explorar los últimos avances en IA, computación en la nube y soluciones empresariales.",
     },
     {
-      ...DATA.hackathons[3],
+      ...DATA.moreInProgress[3],
       description:
-        "Desarrollé una aplicación web que agrega datos de redes sociales sobre criptomonedas y predice precios futuros.",
-    },
-    {
-      ...DATA.hackathons[4],
-      description:
-        "Desarrollé una aplicación móvil que asigna una asignación diaria de emisiones de carbono a los usuarios para avanzar hacia un entorno sostenible.",
-      win: "Mejor Hack de Datos",
-    },
-    {
-      ...DATA.hackathons[5],
-      description:
-        "Desarrollé una aplicación blockchain para médicos y farmacéuticos para realizar transacciones sin confianza y prevenir sobredosis en pacientes.",
-    },
-    {
-      ...DATA.hackathons[6],
-      description:
-        "Desarrollé una aplicación de realidad virtual que permite a los usuarios verse a sí mismos en tercera persona.",
-    },
-    {
-      ...DATA.hackathons[7],
-      description:
-        "Desarrollé una plataforma abierta para personas que envían artículos al mismo lugar para combinar costos de envío y ahorrar dinero.",
-    },
-    {
-      ...DATA.hackathons[8],
-      description:
-        "Desarrollé una extensión de Chrome que rastrea qué perfiles de Facebook has visitado y envía inmediatamente un mensaje de texto a tu novia si visitaste la página de otra chica.",
-    },
-    {
-      ...DATA.hackathons[9],
-      description:
-        "Desarrollé una biblioteca de Python que se puede importar a cualquier juego de Python y cambiar la dificultad del juego según la emoción en tiempo real del jugador. Utiliza OpenCV y cámara web para reconocimiento facial, y un Modelo de Aprendizaje Automático personalizado entrenado en un [Conjunto de Datos de Emociones de Kaggle](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/leaderboard) usando [Tensorflow](https://www.tensorflow.org/Tensorflow) y [Keras](https://keras.io/). Este proyecto recibió el primer lugar en el Global AI Hackathon - Toronto y también fue invitado a demostrar en [NextAI Canada](https://www.nextcanada.com/next-ai).",
-      win: "Ganador del Primer Lugar",
-    },
-    {
-      ...DATA.hackathons[10],
-      description:
-        "Desarrollé un analizador de microexpresiones faciales en tiempo real usando IA",
-    },
-    {
-      ...DATA.hackathons[11],
-      description:
-        "Desarrollé una interfaz de administración personalizada para la startup de residuos alimentarios <a href='http://genecis.co/'>Genecis</a> para administrar sus datos y proporcionar análisis.",
-      win: "Ganador del Primer Lugar",
-    },
-    {
-      ...DATA.hackathons[12],
-      description: "Mejoré PocketDoc y lo envié a una competencia en línea",
-      win: "Top 10 Finalista | Mención de Honor",
-    },
-    {
-      ...DATA.hackathons[13],
-      description: "Desarrollé una red neuronal para optimizar un proceso de minería",
-    },
-    {
-      ...DATA.hackathons[14],
-      description:
-        "Desarrollé Pocketdoc, una aplicación en la que tomas una foto de una herida física, y la aplicación devuelve soluciones comunes o curas para las lesiones o enfermedades.",
-    },
-    {
-      ...DATA.hackathons[15],
-      description:
-        "Desarrollé Earthwatch, una aplicación web que permite a los usuarios en un avión ver virtualmente puntos importantes de interés sobre el mundo debajo de ellos. Incluso pueden elegir volar lejos de su ruta y luego volver si lo desean. Agradecimientos especiales a CesiumJS por proporcionar modelos de mundo y avión de código abierto.",
-    },
-    {
-      ...DATA.hackathons[16],
-      description:
-        "Desarrollé Super Graphic Air Traffic, un sitio web de RV creado para presentar a las personas al mundo del control de tráfico aéreo. Este proyecto fue construido completamente usando THREE.js así como un servidor backend de node.",
-    },
-    {
-      ...DATA.hackathons[17],
-      description:
-        "Desarrollado en StartHacks 2017, Recipic es una aplicación móvil que te permite tomar fotos de ingredientes alrededor de tu casa, y reconocerá esos ingredientes usando la API de reconocimiento de imágenes de ClarifAI y devolverá posibles recetas para hacer. Recipic recibió el primer lugar en el hackathon por mejor presentación y hack.",
-      win: "Ganador del Primer Lugar",
-    },
-    {
-      ...DATA.hackathons[18],
-      description:
-        "Desarrollé un juego móvil que permite una cacería humana en toda la ciudad con lobbies aleatorios",
-    },
-    {
-      ...DATA.hackathons[19],
-      description:
-        "Desarrollé una simulación de Windows 11 con notificaciones y funcionalidad interesantes",
-    },
-    {
-      ...DATA.hackathons[20],
-      description:
-        "Desarrollé un widget interno para cargar tareas usando la aplicación de portal de Waterloo",
+        "Voluntario activo en programas comunitarios locales, enfocándome en educación tecnológica y mentoría de jóvenes estudiantes interesados en programación y ciencias de la computación. Organizando talleres y sesiones de codificación para inspirar a la próxima generación de desarrolladores.",
     },
   ],
 } as const;
