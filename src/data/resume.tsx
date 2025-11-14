@@ -256,7 +256,13 @@ export const DATA = {
         "Certified Google Educator Level 1, demonstrating proficiency in integrating Google Workspace tools into educational and professional environments to enhance productivity and collaboration.",
       image:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1024px-Google_%22G%22_logo.svg.png",
-      links: [],
+      links: [
+        {
+          type: "Certificate",
+          href: "https://edu.google.accredible.com/ed423a89-589e-415f-a26a-9ca8151185f5?key=d41d52dcbaa2bd5376b5a01ea8bd0cec5d7fd63ac6a345ef27c748fb351d7aac#acc.4Svyzi7r",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
     },
     {
       title: "Autonomous Robot with Nvidia Jetson Nano",
@@ -270,12 +276,12 @@ export const DATA = {
     },
     {
       title: "IBM TechXchange Conference",
-      dates: "October 2024",
-      location: "Las Vegas, Nevada",
+      dates: "October 2025",
+      location: "Florida, Orlando",
       description:
-        "Attended IBM TechXchange Conference 2024, a premier event bringing together technology leaders, developers, and innovators to explore the latest advancements in AI, cloud computing, and enterprise solutions.",
+        "Attended IBM TechXchange Conference 2025, a premier event bringing together technology leaders, developers, and innovators to explore the latest advancements in AI, cloud computing, and enterprise solutions.",
       image:
-        "https://www.ibm.com/brand/experience-guides/developer/b1db1ae501d522a1a4b49613fe07c9f1/01_8-bar-positive.svg",
+        "ibm.jpg",
       links: [],
     },
     {
