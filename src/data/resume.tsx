@@ -125,40 +125,40 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "RAG ChatBot",
+      href: "https://chat.softshop.com.py",
+      dates: "Dec 2024 - Feb 2025",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Built a demo to efficiently let users create Agents and update their knowledge base using company documents, to later interact with it using natural language. Used GCP Vertex AI, AI SDK, and Langchain.",
       technologies: [
         "Next.js",
         "Typescript",
         "PostgreSQL",
         "Prisma",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "GCP",
+        "Milvus",
+
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://chat.softshop.com.py",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "rag-chatbot.png",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "EVA360",
+      href: "https://eva360.it.com",
+      dates: "Aug 2025 - Jan 2026",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "Designed, developed and sold an enterprise evaluation system that enables HR departments to create evaluation forms, distribute them to employees, and generate comprehensive reports on performance metrics and areas for improvement. The system streamlines the evaluation process, enhances data accuracy, and provides actionable insights for organizational growth.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -185,22 +185,19 @@ export const DATA = {
       video: "https://cdn.magicui.design/bento-grid.mp4",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      title: "Heko pora",
+      href: "https://heko-pora-823216545609.us-central1.run.app",
+      dates: "In progress",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Developed an open-source system for medical appointments where users can select and filter clinicians based on their medical secure.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Node.js",
+        "Express.js",
+        "Sybase SQL",
+        "Bootstrap",
+        "Docker",
+        "GCP",
       ],
       links: [
         {
