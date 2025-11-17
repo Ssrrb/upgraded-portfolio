@@ -5,34 +5,34 @@ import { DATA } from "./resume";
 export const DATA_ES = {
   ...DATA,
   description:
-    "Estudiante de Ciencias de la Computación con más de 2 años de experiencia. Me encanta construir cosas y ayudar a las personas. Muy activo en Twitter.",
+    "Estudiante de Ciencias de la Computación con más de 2 años de experiencia. Me encanta construir cosas y ayudar a las personas. Muy activo en GitHub.",
   summary:
-    "A finales de 2025, dejé mi trabajo como ingeniero de software para dedicarme a tiempo completo a construir y escalar mis propios Proyectos y Startups. En el pasado, [estudié ciencias de la computación por la noche y trabajé durante el día](/#education), trabajé en una gran empresa tecnológica local en Asunción",
+    "Me encanta resolver problemas y crear experiencias de software; mi especialidad es construir aplicaciones de IA y web full-stack. Actualmente estoy inscrito en un curso de MITx y busco colaborar en proyectos. En el pasado, [empecé estudiando ingeniería electrónica y cambié para asistir a clases nocturnas de ciencias de la computación mientras trabajaba de día](/#education), trabajé en un equipo de IA en una de las principales empresas tecnológicas locales.",
   work: [
     {
       ...DATA.work[0],
       title: "Ingeniero de Software",
       description:
-        "Implementé un sistema para análisis de imágenes médicas de rayos X utilizando GCP Vertex AI, BigQuery, Firestore y Cloud Functions, logrando una reducción del 15% y una precisión del 80% en el tiempo de diagnóstico para radiólogos. Desarrollé un chatbot personalizado para uso interno de la empresa con Gemini ayudando a mantener un seguimiento del equipo de hardware. Mantuve y mejoré pipelines MLOps usando Linux, Docker, Kubeflow, CUDAs y TPUs para modelos ML de conteo de árboles en producción para el proyecto Terraview. Ayudé al equipo comercial acompañándolos como ingeniero técnico de preventa para proyectos relacionados con GCP y Software.",
+        "Implementé un sistema para analizar imágenes médicas de rayos X utilizando GCP Vertex AI, BigQuery, Firestore y Cloud Functions, logrando una reducción del 15% del presupuesto estimado y un 25% menos de tiempo de diagnóstico. Ayudé a desarrollar un chatbot personalizado para uso interno de la empresa con Gemini para el seguimiento del hardware y otro para el onboarding de nuevos empleados. Mantuve y diseñé pipelines de MLOps con Linux, Docker, Kubeflow, CUDAs y Colab para modelos de conteo de árboles en producción para el proyecto Terraview. Acompañé al equipo comercial como ingeniero técnico de preventa en migraciones a GCP y proyectos de software.",
     },
     {
       ...DATA.work[1],
       title: "Técnico de IT",
       description:
-        "Comencé mi pasantía como técnico de IT, gestionando y manteniendo servidores, estaciones de trabajo y bases de datos usando RHEL, Windows Server, DB2 y MySQL. Automaticé varias tareas de monitoreo y mantenimiento de IT usando Datadog, Python e Instana, reduciendo la carga de trabajo manual en un 30%.",
+        "Comencé como pasante y luego fui contratado como técnico de IT, administrando y manteniendo servidores, estaciones de trabajo y bases de datos con DB2 y Postgres. Automaticé el monitoreo y mantenimiento de IT en RHEL usando Datadog, Python e Instana, ayudando a reducir el tiempo de inactividad en un 99,9%.",
     },
   ],
   education: [
     {
-      ...DATA.education[1],
+      ...DATA.education[0],
       degree: "Análisis de Sistemas Informáticos",
     },
     {
-      ...DATA.education[2],
-      degree: "Bachiller Tecnico con Énfasis en Marketing",
+      ...DATA.education[1],
+      degree: "Bachiller Técnico con Énfasis en Marketing",
     },
-      {
-      ...DATA.education[0],
+    {
+      ...DATA.education[2],
       degree: "Arquitecto Profesional en la Nube",
     },
     {
@@ -44,22 +44,22 @@ export const DATA_ES = {
     {
       ...DATA.projects[0],
       description:
-        "Con el lanzamiento de la [Tienda GPT de OpenAI](https://openai.com/blog/introducing-the-gpt-store), decidí construir un SaaS que permite a los usuarios recopilar direcciones de correo electrónico de sus usuarios de GPT. Esta es una excelente manera de construir una audiencia y monetizar el uso de tu API de GPT.",
+        "Construí un sistema para permitir a los usuarios crear Agentes de manera eficiente y actualizar su base de conocimientos utilizando documentos de la empresa, para interactuar con ellos usando lenguaje natural. Utilicé GCP Vertex AI, AI SDK y Langchain.",
     },
     {
       ...DATA.projects[1],
       description:
-        "Diseñé, desarrollé y vendí componentes de interfaz de usuario animados para desarrolladores.",
+        "Diseñé, desarrollé y vendí un sistema empresarial de evaluación que permite a los departamentos de Recursos Humanos crear formularios de evaluación, distribuirlos a los empleados y generar informes completos sobre métricas de rendimiento y áreas de mejora. El sistema agiliza el proceso de evaluación, mejora la precisión de los datos y proporciona información útil para el crecimiento organizacional.",
     },
     {
       ...DATA.projects[2],
       description:
-        "Desarrollé una plataforma de código abierto de registro y análisis para OpenAI: Registra tus solicitudes de API de ChatGPT, analiza costos y mejora tus prompts.",
+        "Desarrollando un sistema de código abierto para citas médicas donde los usuarios pueden seleccionar y filtrar médicos según su seguro médico.",
     },
     {
       ...DATA.projects[3],
       description:
-        "Desarrollé un Chatbot de Soporte al Cliente con IA que responde automáticamente a tickets de soporte al cliente utilizando los últimos modelos GPT.",
+        "Desarrollé un sitio web para una escuela nacional, contactando responsables y gestionando el dominio.",
     },
   ],
   moreInProgress: [
@@ -76,12 +76,12 @@ export const DATA_ES = {
     {
       ...DATA.moreInProgress[2],
       description:
-        "Asistí a la Conferencia IBM TechXchange 2024, un evento premier que reúne a líderes tecnológicos, desarrolladores e innovadores para explorar los últimos avances en IA, computación en la nube y soluciones empresariales.",
+        "Asistí a la Conferencia IBM TechXchange 2025 en Orlando, un evento que reúne a líderes tecnológicos, desarrolladores e innovadores para explorar los últimos avances en IA, computación en la nube y soluciones empresariales.",
     },
     {
       ...DATA.moreInProgress[3],
       description:
-        "Voluntario activo en programas comunitarios locales, enfocándome en educación tecnológica y mentoría de jóvenes estudiantes interesados en programación y ciencias de la computación. Organizando talleres y sesiones de codificación para inspirar a la próxima generación de desarrolladores.",
+        "Voluntario activo en programas comunitarios como Apoyo Escolar, apoyando la educación y mentoreando a jóvenes interesados en programación y ciencias de la computación.",
     },
   ],
 } as const;

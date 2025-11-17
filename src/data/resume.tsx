@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Computer Science Student with +2 years of experience. I love building things and helping people. Very active on GitHub.",
   summary:
-    "At the end of 2025, I quit my job as a software engineer to go fulltime into building my own Projects and learning Data Science. In the past, [I started studying electronics engineering and switched to attend computer science classes at night and work during the day](/#education), worked at an AI team in a local top tech company",
+    "I love solving problems and crafting software experiences, my expertise lies in building AI and Full-Stack Web applications. Currently I'm enrolled in an MITx course and looking forward to work in projects. In the past, [I started studying electronics engineering and switched to attend computer science classes at night and work during the day](/#education), worked at an AI team in a local top tech company",
   avatarUrl: "/me.jpeg",
   skills: [
     "Typescript",
@@ -24,6 +24,9 @@ export const DATA = {
     "Unix/Linux",
     "Google Cloud",
     "Azure",
+    "Pub/Sub",
+    "AI/ML",
+    "RAG"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -130,7 +133,7 @@ export const DATA = {
       dates: "Dec 2024 - Feb 2025",
       active: true,
       description:
-        "Built a demo to efficiently let users create Agents and update their knowledge base using company documents, to later interact with it using natural language. Used GCP Vertex AI, AI SDK, and Langchain.",
+        "Built a system to efficiently let users create Agents and update their knowledge base using company documents, to interact with it using natural language. Used GCP Vertex AI, AI SDK, and Langchain.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -139,7 +142,6 @@ export const DATA = {
         "TailwindCSS",
         "GCP",
         "Milvus",
-
       ],
       links: [
         {
@@ -148,7 +150,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "rag-chatbot.png",
+      image: "/rag-chatbot.png",
       video:
         "",
     },
@@ -165,24 +167,18 @@ export const DATA = {
         "PostgreSQL",
         "Prisma",
         "TailwindCSS",
-        "Stripe",
         "Shadcn UI",
-        "Magic UI",
+        "Clerk",
       ],
       links: [
         {
-          type: "Website",
-          href: "https://magicui.design",
+          type: "Webapp",
+          href: "https://eva360.it.com",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      image: "/eva360.png",
+      video: "",
     },
     {
       title: "Heko pora",
@@ -198,50 +194,52 @@ export const DATA = {
         "Bootstrap",
         "Docker",
         "GCP",
+        "HTMX"
       ],
       links: [
         {
-          type: "Website",
-          href: "https://llm.report",
+          type: "Webapp",
+          href: "https://heko-pora-823216545609.us-central1.run.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/Ssrrb/heko-pora",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "/heko-pora.png",
+      video: "",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "Mariscal Estigarribia",
+      href: "https://mcalestigarribia.edu.py",
+      dates: "July 2025 -  September 2025",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Developed a website for a national school, contacting responsibles and managing the domain.",
       technologies: [
-        "Next.js",
+        "React",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
         "TailwindCSS",
         "Shadcn UI",
         "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
       ],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://mcalestigarribia.edu.py",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/Ssrrb/mcal-estigarribia",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
-      image: "",
+      image: "/mcal.png",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "",
     },
   ],
   moreInProgress: [
@@ -278,7 +276,7 @@ export const DATA = {
       description:
         "Attended IBM TechXchange Conference 2025, a premier event bringing together technology leaders, developers, and innovators to explore the latest advancements in AI, cloud computing, and enterprise solutions.",
       image:
-        "ibm.jpg",
+        "/ibm.jpg",
       links: [],
     },
     {
@@ -286,7 +284,7 @@ export const DATA = {
       dates: "2020 - Present",
       location: "Asunción, Paraguay",
       description:
-        "Active volunteer in local community programs, focusing on technology education and mentoring young students interested in programming and computer science. Organizing workshops and coding sessions to inspire the next generation of developers.",
+        "Active volunteer in community programs such as Apoyo Escolar, volunteering for education and mentoring young students interested in programming and computer science.",
       image:
         "https://cdn-icons-png.flaticon.com/512/2917/2917995.png",
       links: [],
