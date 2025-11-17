@@ -73,7 +73,7 @@ export const DATA = {
       badges: [],
       location: "Asunción, Paraguay",
       title: "Software Engineer",
-      logoUrl: "/softshop.svg",
+      logoUrl: "/softshop.png",
       start: "Aug 2024",
       end: "Dec 2025",
       description:
@@ -85,7 +85,7 @@ export const DATA = {
       href: "https://softshop.com.py",
       location: "Asunción, Paraguay",
       title: "IT Technician",
-      logoUrl: "/softshop.svg",
+      logoUrl: "/softshop.png",
       start: "Dec 2023",
       end: "May 2024",
       description:
