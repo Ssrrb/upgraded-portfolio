@@ -43,8 +43,8 @@
   "contact": {
     "badge": "Contacto",
     "title": "Ponte en Contacto",
-    "description": "¿Quieres charlar? Envíame un mensaje directo",
-    "withALink": "con un DM en twitter o LinkedIn",
+    "description": "¿Queres hablar? Envíame un DM",
+    "withALink": "en twitter o LinkedIn",
     "andIgnore": "y responderé cuando pueda.",
     "sendEmail": "Enviar Email",
     "andIWillGetBackToYou": "y te responderé."

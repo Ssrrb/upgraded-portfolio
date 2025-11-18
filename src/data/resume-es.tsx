@@ -5,9 +5,9 @@ import { DATA } from "./resume";
 export const DATA_ES = {
   ...DATA,
   description:
-    "Estudiante de Ciencias de la Computación con más de 2 años de experiencia. Me encanta construir cosas y ayudar a las personas. Muy activo en GitHub.",
+    "Estudiante de Analisis de Sistemas Informáticos con más de 2 años de experiencia. Me encanta construir cosas y ayudar a las personas. Muy activo en GitHub.",
   summary:
-    "Me encanta resolver problemas y crear experiencias de software; mi especialidad es construir aplicaciones de IA y web full-stack. Actualmente estoy inscrito en un curso de MITx y busco colaborar en proyectos. En el pasado, [empecé estudiando ingeniería electrónica y cambié para asistir a clases nocturnas de ciencias de la computación mientras trabajaba de día](/#education), trabajé en un equipo de IA en una de las principales empresas tecnológicas locales.",
+    "Me encanta resolver problemas y crear experiencias de software; mi especialidad es construir aplicaciones de IA y web full-stack. Actualmente estoy cursando una especialización de MIT en Ciencias de Datos y Estadiística. En el pasado, [empecé estudiando ingeniería electrónica y cambié para asistir a clases nocturnas de analisis de sistemas mientras trabajaba de día](/#education), trabajé en un equipo de IA en una de las principales empresas tecnológicas locales.",
   work: [
     {
       ...DATA.work[0],
