@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Computer Science Student with +2 years of experience. I love building things and helping people. Very active on GitHub.",
   summary:
-    "I love solving problems and crafting software experiences, my expertise lies in building AI and Full-Stack Web applications. Currently I'm enrolled in an MITx course and looking forward to work in projects. In the past, [I started studying electronics engineering and switched to attend computer science classes at night and work during the day](/#education), worked at an AI team in a local top tech company",
+    "I love programming and math; my expertise lies in the interesection between logic, communication and technology. Currently I'm enrolled in an MITx course. In the past, [I started studying electronics engineering and switched to attend computer science classes at night while working during the day](/#education), worked at an AI team in a local top tech company",
   avatarUrl: "/me.jpeg",
   skills: [
     "Typescript",
