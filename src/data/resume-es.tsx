@@ -5,15 +5,15 @@ import { DATA } from "./resume";
 export const DATA_ES = {
   ...DATA,
   description:
-    "Estudiante de Analisis de Sistemas Informáticos con más de 2 años de experiencia. Me encanta construir cosas y ayudar a las personas. Muy activo en GitHub.",
+    "Ingeniero de software orientado al backend con experiencia en producción en Python, TypeScript, sistemas en la nube y servicios con IA.",
   summary:
-    "Me encanta programar y las matematicas; Mi especialidad es la intersección entre lógica, comunicación y tecnología, creando experiencias con IA y la web. Actualmente estoy cursando una especialización de MIT en Ciencias de Datos y Estadiística. En el pasado, [empecé estudiando ingeniería electrónica y me cambié para asistir a clases nocturnas de analisis de sistemas mientras trabajaba de día](/#education), trabajé en un equipo de IA en una de las principales empresas tecnológicas locales.",
+    "Soy desarrollador autodidacta, siempre aprendiendo y me encanta lo que hago. Trabajé tiempo completo mientras estudiaba; estoy acostumbrado a asumir responsabilidad y entregar bajo restricciones. Tengo experiencia trabajando con equipos en proyectos con arquitecturas cloud-native, servicios de IA y sistemas backend escalables.",
   work: [
     {
       ...DATA.work[0],
       title: "Ingeniero de Software",
       description:
-        "Implementé un sistema para analizar imágenes médicas de rayos X utilizando GCP Vertex AI, BigQuery, Firestore y Cloud Functions, logrando una reducción del 15% del presupuesto estimado y un 25% menos de tiempo de diagnóstico. Ayudé a desarrollar un chatbot personalizado para uso interno de la empresa con Gemini para el seguimiento del hardware y otro para el onboarding de nuevos empleados. Mantuve y diseñé pipelines de MLOps con Linux, Docker, Kubeflow, CUDAs y Colab para modelos de conteo de árboles en producción para el proyecto Terraview. Acompañé al equipo comercial como ingeniero técnico de preventa en migraciones a GCP y proyectos de software.",
+        "Construí y mantuve servicios backend con Python y Node.js en entornos de producción. Diseñé APIs y modelos de datos para aplicaciones internas y empresariales. Desplegué y operé servicios en Google Cloud (CI/CD, cargas contenerizadas). Trabajé en backend y frontend cuando fue necesario para desbloquear entregas.",
     },
     {
       ...DATA.work[1],
@@ -44,29 +44,29 @@ export const DATA_ES = {
     {
       ...DATA.projects[0],
       description:
-        "Construí un sistema para permitir a los usuarios crear Agentes de manera eficiente y actualizar su base de conocimientos utilizando documentos de la empresa, para interactuar con ellos usando lenguaje natural. Utilicé GCP Vertex AI, AI SDK y Langchain.",
+        "Construí un sistema para permitir a los usuarios crear agentes y actualizar su base de conocimientos con documentos de la empresa, e interactuar con ellos usando lenguaje natural. Utilicé GCP Vertex AI, AI SDK y Langchain.",
     },
     {
       ...DATA.projects[1],
       description:
-        "Diseñé, desarrollé y vendí un sistema empresarial de evaluación que permite a los departamentos de Recursos Humanos crear formularios de evaluación, distribuirlos a los empleados y generar informes completos sobre métricas de rendimiento y áreas de mejora. El sistema agiliza el proceso de evaluación, mejora la precisión de los datos y proporciona información útil para el crecimiento organizacional.",
+        "Diseñé, desarrollé y vendí un sistema empresarial de evaluación que permite a RR. HH. crear formularios, distribuirlos a empleados y generar informes completos sobre métricas de rendimiento y áreas de mejora. El sistema agiliza la evaluación, mejora la precisión de los datos y aporta información útil para el crecimiento organizacional.",
     },
     {
       ...DATA.projects[2],
       description:
-        "Desarrollando un sistema de código abierto para citas médicas donde los usuarios pueden seleccionar y filtrar médicos según su seguro médico.",
+        "Desarrollé un sistema de código abierto para citas médicas donde los usuarios pueden seleccionar y filtrar médicos según su seguro médico.",
     },
     {
       ...DATA.projects[3],
       description:
-        "Desarrollé un sitio web para una escuela nacional, contactando responsables y gestionando el dominio.",
+        "Desarrollé un sitio web para una escuela nacional, contacté a los responsables y gestioné el dominio.",
     },
   ],
   moreInProgress: [
     {
       ...DATA.moreInProgress[0],
       description:
-        "Educador Certificado de Google Nivel 1, demostrando competencia en la integración de herramientas de Google Workspace en entornos educativos y profesionales para mejorar la productividad y colaboración.",
+        "Educador Certificado de Google Nivel 1, demostrando competencia en la integración de herramientas de Google Workspace en entornos educativos y profesionales para mejorar la productividad y la colaboración.",
     },
     {
       ...DATA.moreInProgress[1],

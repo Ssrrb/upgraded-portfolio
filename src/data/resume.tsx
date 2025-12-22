@@ -8,25 +8,23 @@ export const DATA = {
   location: "Asunción, PY",
   locationLink: "https://www.google.com/maps/place/asunci%C3%B3n,+paraguay/",
   description:
-    "Computer Science Student with +2 years of experience. I love building things and helping people. Very active on GitHub.",
+    "Backend-oriented Software Engineer with production experience in Python, Typescript, cloud systems, and AI-backed services.",
   summary:
-    "I love programming and math; my expertise lies in the interesection between logic, communication and technology. Currently I'm enrolled in an MITx course. In the past, [I started studying electronics engineering and switched to attend computer science classes at night while working during the day](/#education), worked at an AI team in a local top tech company",
+    "I'm a self-taught developer, always learning and really love what I do. Worked full time while studying; accustomed to ownership and delivery under constraints. Experience working with teams on projects using cloud-native architectures, AI services, and scalable backend systems.",
   avatarUrl: "/me.jpeg",
   skills: [
-    "Typescript",
-    "Node.js",
     "Python",
-    "Postgres",
-    "CI/CD",
-    "Next.js",
+    "Node.js",
+    "Go",
+    "PostgreSQL",
+    "Google Cloud Platform",
     "Docker",
-    "Java",
-    "Unix/Linux",
-    "Google Cloud",
-    "Azure",
-    "Pub/Sub",
-    "AI/ML",
-    "RAG"
+    "CI/CD",
+    "React / Next.js",
+    "TypeScript",
+    "RAG",
+    "Vertex AI",
+    "Huggingface"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -77,7 +75,7 @@ export const DATA = {
       start: "Aug 2024",
       end: "Dec 2025",
       description:
-        "Implemented a system for X-Ray medical image analysis using GCP Vertex AI, BigQuery, Firestore, and Cloud Functions, resulting in a 15% cost reduction of the expected budget, resulting in 25% of reduction in diagnostic time. Helped developing a custom chatbot for internal usage of the company with Gemini helping keep track of hardware equipment, and another for new employees. Mantained and designed MLOps pipelines using Linux, Docker, Kubeflow, CUDAs, and Collab for tree-counting ML models in production for project Terraview. Helped the commercial team accompanying them as technical pre-sales engineer for migrations to GCP and Software related projects.",
+        "Built and maintained backend services using Python and Node.js in production environments. Designed APIs and data models backing internal and enterprise-facing applications. Deployed and operated services on Google Cloud (CI/CD, containerized workloads). Worked across backend and frontend when required to unblock delivery.",
     },
     {
       company: "Softshop",
