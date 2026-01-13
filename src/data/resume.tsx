@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Full Stack Software Engineer with production experience in Python, Typescript, cloud systems, and AI services.",
   summary:
-    "Working full time while studying; accustomed to ownership and delivery under constraints. Experience working with teams on projects using cloud-native architectures, AI services, and scalable backend systems.",
+    "Working full time while studying; accustomed to ownership and delivery under constraints. Experience leading teams and projects using cloud-native architectures, AI services, and scalable backend systems.",
   avatarUrl: "/me.jpeg",
   skills: [
     "Python",

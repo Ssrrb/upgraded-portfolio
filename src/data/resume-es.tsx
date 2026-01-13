@@ -7,7 +7,7 @@ export const DATA_ES = {
   description:
     "Ingeniero de software full stack con experiencia en producción en Python, TypeScript, sistemas en la nube y servicios de IA.",
   summary:
-    "Trabajo tiempo completo mientras estudio; estoy acostumbrado a asumir responsabilidad y entregar bajo presión. Tengo experiencia trabajando con equipos en proyectos con arquitecturas cloud-native, servicios de IA y sistemas backend escalables.",
+    "Trabajo tiempo completo mientras estudio; estoy acostumbrado a asumir responsabilidad y entregar bajo presión. Tengo experiencia liderando equipos y proyectos con arquitecturas cloud-native, servicios de IA y sistemas backend escalables.",
   work: [
     {
       ...DATA.work[0],
