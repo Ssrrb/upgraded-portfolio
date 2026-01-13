@@ -8,9 +8,9 @@ export const DATA = {
   location: "Asunción, PY",
   locationLink: "https://www.google.com/maps/place/asunci%C3%B3n,+paraguay/",
   description:
-    "Backend-oriented Software Engineer with production experience in Python, Typescript, cloud systems, and AI-backed services.",
+    "Full Stack Software Engineer with production experience in Python, Typescript, cloud systems, and AI services.",
   summary:
-    "I'm a self-taught developer, always learning and really love what I do. Worked full time while studying; accustomed to ownership and delivery under constraints. Experience working with teams on projects using cloud-native architectures, AI services, and scalable backend systems.",
+    "Working full time while studying; accustomed to ownership and delivery under constraints. Experience working with teams on projects using cloud-native architectures, AI services, and scalable backend systems.",
   avatarUrl: "/me.jpeg",
   skills: [
     "Python",
@@ -73,7 +73,7 @@ export const DATA = {
       title: "Software Engineer",
       logoUrl: "/softshop.png",
       start: "Aug 2024",
-      end: "Dec 2025",
+      end: "Current",
       description:
         "Built and maintained backend services using Python and Node.js in production environments. Designed APIs and data models backing internal and enterprise-facing applications. Deployed and operated services on Google Cloud (CI/CD, containerized workloads). Worked across backend and frontend when required to unblock delivery.",
     },

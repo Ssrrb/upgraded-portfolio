@@ -5,9 +5,9 @@ import { DATA } from "./resume";
 export const DATA_ES = {
   ...DATA,
   description:
-    "Ingeniero de software orientado al backend con experiencia en producción en Python, TypeScript, sistemas en la nube y servicios con IA.",
+    "Ingeniero de software full stack con experiencia en producción en Python, TypeScript, sistemas en la nube y servicios de IA.",
   summary:
-    "Soy desarrollador autodidacta, siempre aprendiendo y me encanta lo que hago. Trabajé tiempo completo mientras estudiaba; estoy acostumbrado a asumir responsabilidad y entregar bajo restricciones. Tengo experiencia trabajando con equipos en proyectos con arquitecturas cloud-native, servicios de IA y sistemas backend escalables.",
+    "Trabajo tiempo completo mientras estudio; estoy acostumbrado a asumir responsabilidad y entregar bajo presión. Tengo experiencia trabajando con equipos en proyectos con arquitecturas cloud-native, servicios de IA y sistemas backend escalables.",
   work: [
     {
       ...DATA.work[0],
