@@ -222,7 +222,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://mcalestigarribia.edu.py",
+          href: "https://mcalestigarribiacarapegua.edu.py",
           icon: <Icons.globe className="size-3" />,
         },
         {
