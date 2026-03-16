@@ -126,8 +126,8 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "EVA360",
-      href: "https://eva360.it.com",
+      title: "rh-360",
+      href: "",
       dates: "Aug 2025 - Jan 2026",
       active: true,
       description:
@@ -144,7 +144,7 @@ export const DATA = {
       links: [
         {
           type: "Webapp",
-          href: "https://eva360.it.com",
+          href: "https://rh360-823216545609.us-central1.run.app",
           icon: <Icons.globe className="size-3" />,
         },
       ],
