@@ -19,7 +19,7 @@ export const DATA_ES = {
       ...DATA.work[1],
       title: "Técnico de IT",
       description:
-        "Comencé como pasante y luego fui contratado como técnico de IT, administrando y manteniendo servidores, estaciones de trabajo y bases de datos con DB2 y Postgres. Automaticé el monitoreo y mantenimiento de IT en RHEL usando Datadog, Python e Instana, ayudando a reducir el tiempo de inactividad en un 99,9%.",
+        "Comencé como pasante y luego fui contratado como técnico de IT, administrando y manteniendo servidores, estaciones de trabajo y bases de datos con DB2 y Postgres. Automaticé el monitoreo y mantenimiento de IT en RHEL usando Datadog, Python e Instana",
     },
   ],
   education: [
@@ -58,6 +58,12 @@ export const DATA_ES = {
     },
     {
       ...DATA.projects[3],
+      dates: "Demo para cliente",
+      description:
+        "Demo para una Farmacia enfocadome en presentar una experiencia web moderna con e-commerce, mostrando un cataálogo de productos y listo para producción.",
+    },
+    {
+      ...DATA.projects[4],
       description:
         "Desarrollé un sitio web para una escuela nacional, contacté a los responsables y gestioné el dominio.",
     },

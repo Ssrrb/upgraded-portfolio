@@ -126,33 +126,6 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "RAG ChatBot",
-      href: "https://chat.softshop.com.py",
-      dates: "Dec 2024 - Feb 2025",
-      active: true,
-      description:
-        "Built a system to efficiently let users create Agents and update their knowledge base using company documents, to interact with it using natural language. Used GCP Vertex AI, AI SDK, and Langchain.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "GCP",
-        "Milvus",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://chat.softshop.com.py",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/rag-chatbot.png",
-      video:
-        "",
-    },
-    {
       title: "EVA360",
       href: "https://eva360.it.com",
       dates: "Aug 2025 - Jan 2026",
@@ -210,6 +183,29 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Vida Farma",
+      href: "https://vida-farma-823216545609.us-central1.run.app",
+      dates: "Client demo",
+      active: true,
+      description:
+        "Built a project for a Pharma focused on presenting a modern pharmacy web experience with clear product discovery and a production-ready deployment.",
+      technologies: [
+        "Typescript",
+        "TailwindCSS",
+        "PostgreSQL",
+        "GCP",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://vida-farma-823216545609.us-central1.run.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/vida-farm.png",
+      video: "",
+    },
+    {
       title: "Mariscal Estigarribia",
       href: "https://mcalestigarribia.edu.py",
       dates: "July 2025 -  September 2025",
@@ -236,6 +232,33 @@ export const DATA = {
         },
       ],
       image: "/mcal.png",
+      video:
+        "",
+    },
+    {
+      title: "RAG ChatBot",
+      href: "https://chat.softshop.com.py",
+      dates: "Dec 2024 - Feb 2025",
+      active: true,
+      description:
+        "Built a system to efficiently let users create Agents and update their knowledge base using company documents, to interact with it using natural language. Used GCP Vertex AI, AI SDK, and Langchain.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "GCP",
+        "Milvus",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Ssrrb/ai-custom",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/rag-chatbot.png",
       video:
         "",
     },
