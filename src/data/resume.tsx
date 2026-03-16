@@ -131,7 +131,7 @@ export const DATA = {
       dates: "Aug 2025 - Jan 2026",
       active: true,
       description:
-        "Designed, developed and sold an enterprise evaluation system that enables HR departments to create evaluation forms, distribute them to employees, and generate comprehensive reports on performance metrics and areas for improvement. The system streamlines the evaluation process, enhances data accuracy, and provides actionable insights for organizational growth.",
+        "Designed an enterprise evaluation system that enables HR departments to create evaluation forms, distribute them to employees, and generate reports on performance metrics. The system streamlines the evaluation process, enhances data accuracy and empowers HR managers to make informed decisions.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -185,7 +185,7 @@ export const DATA = {
     {
       title: "Vida Farma",
       href: "https://vida-farma-823216545609.us-central1.run.app",
-      dates: "Client demo",
+      dates: "In progress",
       active: true,
       description:
         "Built a project for a Pharma focused on presenting a modern pharmacy web experience with clear product discovery and a production-ready deployment.",
@@ -255,7 +255,7 @@ export const DATA = {
         {
           type: "Source",
           href: "https://github.com/Ssrrb/ai-custom",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/rag-chatbot.png",

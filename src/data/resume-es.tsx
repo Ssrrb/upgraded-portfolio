@@ -1,6 +1,30 @@
 import { Icons } from "@/components/icons";
 import { DATA } from "./resume";
 
+const projectTranslations = {
+  EVA360: {
+    description:
+      "Diseñé un sistema empresarial para evaluaciones permite crear formularios, distribuirlos a empleados y generar informes completos con métricas. El sistema agiliza la evaluación, mejora la agilidad y aumenta la precisión de los datos, aportando información útil para el crecimiento organizacional.",
+  },
+  "Heko pora": {
+    description:
+      "Desarrollé un sistema de código abierto para citas médicas donde los usuarios pueden seleccionar y filtrar médicos según su seguro médico.",
+  },
+  "Vida Farma": {
+    dates: "Jul 2025 - Sep 2025",
+    description:
+      "Demo para una Farmacia enfocadome en presentar una experiencia web moderna con e-commerce, mostrando un cataálogo de productos y listo para producción.",
+  },
+  "Mariscal Estigarribia": {
+    description:
+      "Desarrollé un sitio web para una escuela nacional, contacté a los responsables y gestioné el dominio.",
+  },
+  "RAG ChatBot": {
+    description:
+      "Construí un sistema para permitir a los usuarios crear agentes y actualizar su base de conocimientos con documentos de la empresa, e interactuar con ellos usando lenguaje natural. Utilicé GCP Vertex AI, AI SDK y Langchain.",
+  },
+} as const;
+
 // Spanish translations for the resume data
 export const DATA_ES = {
   ...DATA,
@@ -41,32 +65,10 @@ export const DATA_ES = {
     },
   ],
   projects: [
-    {
-      ...DATA.projects[0],
-      description:
-        "Construí un sistema para permitir a los usuarios crear agentes y actualizar su base de conocimientos con documentos de la empresa, e interactuar con ellos usando lenguaje natural. Utilicé GCP Vertex AI, AI SDK y Langchain.",
-    },
-    {
-      ...DATA.projects[1],
-      description:
-        "Diseñé, desarrollé y vendí un sistema empresarial de evaluación que permite a RR. HH. crear formularios, distribuirlos a empleados y generar informes completos sobre métricas de rendimiento y áreas de mejora. El sistema agiliza la evaluación, mejora la precisión de los datos y aporta información útil para el crecimiento organizacional.",
-    },
-    {
-      ...DATA.projects[2],
-      description:
-        "Desarrollé un sistema de código abierto para citas médicas donde los usuarios pueden seleccionar y filtrar médicos según su seguro médico.",
-    },
-    {
-      ...DATA.projects[3],
-      dates: "Demo para cliente",
-      description:
-        "Demo para una Farmacia enfocadome en presentar una experiencia web moderna con e-commerce, mostrando un cataálogo de productos y listo para producción.",
-    },
-    {
-      ...DATA.projects[4],
-      description:
-        "Desarrollé un sitio web para una escuela nacional, contacté a los responsables y gestioné el dominio.",
-    },
+    ...DATA.projects.map((project) => ({
+      ...project,
+      ...projectTranslations[project.title as keyof typeof projectTranslations],
+    })),
   ],
   moreInProgress: [
     {
